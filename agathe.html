@@ -1,0 +1,221 @@
+<!-- Site pour Agathe en CM1 afin de lui présenter le codage informatique -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Codage</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        .menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .menu li a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .menu li a:hover {
+            color: #f5f5f5;
+        }
+
+        .menu li a:active {
+            color: #f5f5f5;
+        }
+
+        .menu li a:visited {
+            color: #f5f5f5;
+        }
+
+        .menu li a:link {
+            color: #f5f5f5;
+        }
+
+        .menu li a:focus {
+            color: #f5f5f5;
+        }
+
+        main {
+            padding: 20px;
+            background-image: url("https://www.intronaut.net/wp-content/uploads/code.jpg");
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        div img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html"><img src="Sans_titre_4_-removebg-preview.png" alt="" height="50px"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <th>Le codage d'affichage -- WEB</th>
+                <th>Le codage de traitement -- APPLICATIONS</th>
+            </tr>
+            <tr>
+                <td>Le codage d'affichage est le codage qui permet d'afficher des informations sur un écran. Il est
+                    composé de balises HTML et de feuilles de style CSS.</td>
+                <td>Le codage de traitement est le codage qui permet de traiter des informations. Il est composé de
+                    langages de programmation comme le PHP <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png"
+                        alt="" height="20px">, le JavaScript <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+                        alt="" height="20px">, le C- <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_C_Programming_Language_logo.svg/1200px-The_C_Programming_Language_logo.svg.png"
+                        alt="" height="20px">, le C++ <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
+                        alt="" height="20px">,
+                    le Java <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png"
+                        alt="" height="20px">,
+                    le Python <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+                        alt="" height="20px">, etc.</td>
+            </tr>
+        </table>
+        <table class="boutsdecodeenvrac">
+            <tr>
+                <th>Le codage d'affichage -- WEB</th>
+                <th>Le codage de traitement -- APPLICATIONS</th>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <th>HTML</th>
+                            <th>CSS</th>
+                        </tr>
+                        <tr>
+                            <td>Le HTML est un langage de balisage qui permet d'afficher des informations sur un
+                                écran. Il est composé de balises comme <img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
+                                    alt="" height="20px">
+                            </td>
+                            <td>Le CSS est un langage de feuille de style qui permet de mettre en forme des
+                                informations. Il est composé de sélecteurs comme <img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+                                    alt="" height="20px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>
+                                        &lt;!DOCTYPE html&gt; <br>
+                                        &lt;html&gt; <br>
+                                        &lt;head&gt;    <br>
+                                        &lt;title&gt;Page Title&lt;/title&gt; <br>
+                                        &lt;/head&gt; <br>
+                                        &lt;body&gt; <br>
+                                        &lt;h1&gt;This is a Heading&lt;/h1&gt;  <br>
+                                        &lt;p&gt;This is a paragraph.&lt;/p&gt; <br>
+                                        &lt;/body&gt;   <br>
+                                        &lt;/html&gt;   <br>
+                                    </code>
+                            </td>
+                            <td>
+                                <code>
+                                        h1 { <br>
+                                        color: red; <br>
+                                        } <br>
+                                        p { <br>
+                                        color: blue; <br>
+                                        } <br>
+                                    </code>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <th>PHP</th>
+                            <th>JavaScript</th>
+                        </tr>
+                        <tr>
+                            <td>Le PHP est un langage de programmation qui permet de traiter des informations. Il est
+                                composé de fonctions comme <img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png"
+                                    alt="" height="20px">
+                            </td>
+                            <td>Le JavaScript est un langage de programmation qui permet de traiter des informations.
+                                Il est composé de fonctions comme <img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+                                    alt="" height="20px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <code>
+                                        &lt;?php <br>
+                                        echo "Hello World!"; <br>
+                                        ?&gt; <br>
+                                    </code>
+                            </td>
+                            <td>
+                                <code>
+                                        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+                                    </code>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+        </table>
+    </main>
+</body>
+
+</html>
